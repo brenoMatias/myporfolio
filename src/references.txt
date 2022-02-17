@@ -15,3 +15,6 @@ npm i sass
 
 4) useRef hook react 
 https://reactjs.org/docs/hooks-reference.html#useref
+
+5) React Icon Component - MUI
+npm install @mui/material @emotion/react @emotion/styled
