@@ -1,0 +1,14 @@
+1) SCSS:
+
+https://sass-lang.com/
+
+Sass is a preprocessor scripting language that is interpreted or compiled into Cascading Style Sheets. SassScript is the scripting language itself. Sass consists of two syntaxes. The original syntax, called "the indented syntax," uses a syntax similar to Haml.
+
+npm i sass
+
+2)iTyped
+ Dead simple Animated typing, with no dependencies.
+ npm i ityped
+
+3) @mixin and @include sass(scss)
+   https://sass-lang.com/documentation/at-rules/mixin
