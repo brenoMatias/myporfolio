@@ -15,7 +15,7 @@ function App() {
 
      <div className="sections">
        <Intro />
-      {/* <Portfolio/> */}
+      <Portfolio/>
 
     
      </div>
