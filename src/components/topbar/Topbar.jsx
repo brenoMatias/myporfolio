@@ -1,8 +1,11 @@
 import "./topbar.scss";
-import { Person, Mail } from "@material-ui/icons";
+import { Person, Mail, RvHookupSharp } from "@material-ui/icons";
 
+// aplicação dos hooks = menuOpen, setMenuOpen
 export default function Topbar({ menuOpen, setMenuOpen }) {
   return (
+
+   //  topbar " + (menuOpen && "active") aplicação de transformação do burger menu
     <div className={"topbar " + (menuOpen && "active")}>
       <div className="wrapper">
         <div className="left">
@@ -29,3 +32,5 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
     </div>
   );
 }
+
+//onClick={()=>setMenuOpen(!menuOpen) no click desativa o menu burger (!menuOpen)
