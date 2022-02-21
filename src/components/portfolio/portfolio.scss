@@ -9,10 +9,12 @@
   h1 {
     font-size: 50px;
 
+    @mixin mobilemix {
     @include mobile{
       font-size: 20px;
     }
   }
+}
 
   ul {
     margin: 10px;
@@ -20,12 +22,14 @@
     list-style: none;
     display: flex;
 
+    @mixin mobilemix {
     @include mobile{
       margin: 10px 0;
       flex-wrap: wrap;
       justify-content: center;
     }
   }
+}
 
   .container {
     width: 70%;
@@ -34,9 +38,11 @@
     justify-content: center;
     flex-wrap: wrap;
 
+    @mixin mobilemix {
     @include mobile{
       width: 100%;
     }
+}
 
     .item {
       width: 220px;
@@ -52,10 +58,12 @@
       transition: all .5s ease;
       cursor: pointer;
 
+      @mixin mobilemix {
       @include mobile{
         width: 130px;
         height: 100px;
       }
+    }
 
       h3 {
         position: absolute;
@@ -70,7 +78,7 @@
       }
 
       &:hover {
-        background-color: $mainColor;
+        background-color: black;
         img {
           opacity: 0.2;
           z-index: 0;
