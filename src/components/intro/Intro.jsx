@@ -12,13 +12,13 @@ export default function Intro() {
       backSpeed:60,
       strings: [" Web Developer", "Front End", "Back End"],
     });
-  }, []);
+  }, []); // text animation
 
   return (
     <div className="intro" id="intro">
       <div className="left">
         <div className="imgContainer">
-          {/* <img src="assets/man.png" alt="" /> */}
+          <img src="assets/man.jpg" alt="" />
         </div>
       </div>
       <div className="right">
@@ -30,7 +30,7 @@ export default function Intro() {
           </h3>
         </div>
         <a href="#portfolio">
-          {/* <img src="assets/down.png" alt="" /> */}
+          <img src="assets/down.png" alt="" />
         </a>
       </div>
     </div>
