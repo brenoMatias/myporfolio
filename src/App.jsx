@@ -7,14 +7,11 @@ import "./app.scss"
 import { useState } from "react";
 
 function App() {
-  const [menuOpen,setMenuOpen] = useState(false)
   return (
     <div className="app">
      <div className="sections">
-       <Intro/>
-       <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
+       <h1> Teste </h1>
 
-       <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
     
      </div>
     </div>
