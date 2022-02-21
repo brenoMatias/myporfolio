@@ -99,7 +99,7 @@
           animation: blink 1s infinite;
         }
 
-        @keyframes blink {
+        @keyframes blink { // text animation
             50%{
                 opacity: 1;
             }

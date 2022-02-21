@@ -31,6 +31,33 @@ export default function Works() {
       img:
         "https://i.pinimg.com/originals/a9/f6/94/a9f69465d972a004ad581f245d6ad581.jpg",
     },
+    {
+      id: "4",
+      icon: "./assets/writing.png",
+      title: "Branding",
+      desc:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      img:
+        "https://i.pinimg.com/originals/a9/f6/94/a9f69465d972a004ad581f245d6ad581.jpg",
+    },
+    {
+      id: "5",
+      icon: "./assets/writing.png",
+      title: "Branding",
+      desc:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      img:
+        "https://i.pinimg.com/originals/a9/f6/94/a9f69465d972a004ad581f245d6ad581.jpg",
+    },
+    {
+      id: "6",
+      icon: "./assets/writing.png",
+      title: "Branding",
+      desc:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      img:
+        "https://i.pinimg.com/originals/a9/f6/94/a9f69465d972a004ad581f245d6ad581.jpg",
+    },
   ];
 
   const handleClick = (way) => {
@@ -83,3 +110,5 @@ export default function Works() {
     </div>
   );
 }
+
+//1:40
