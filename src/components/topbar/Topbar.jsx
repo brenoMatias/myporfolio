@@ -1,7 +1,6 @@
 import "./topbar.scss";
 import { Person, Mail } from "@material-ui/icons";
-// import GitHubIcon from '@mui/icons-material/GitHub';
-// aplicação dos hooks = menuOpen, setMenuOpen
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export default function Topbar({ menuOpen, setMenuOpen }) {
   return (
 
@@ -22,8 +21,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
           </div>
           <div>
             {/* <GitHubIcon className="icon" /> */}
-            <span>matiasbreno19@gmail.com</span>
-
+            <FontAwesomeIcon icon="fab fa-github" />
           </div>
         </div>
         <div className="right">
