@@ -1,6 +1,6 @@
 import html5 from "../src/images/html5.png";
 import css3 from "../src/images/css3.png";
-import js from "../src/images/js.png";
+import js from "../src/images/js3.png";
 import react from "../src/images/react1.png";
 import boot from "../src/images/boot1.svg";
 import docker from "../src/images/docker.png";
@@ -24,7 +24,7 @@ export const FrontEndPortfolio = [
     },
     {
       id: 3,
-      title: "JSX",
+      title: "JavaScript",
       img: js,
     },
     {
