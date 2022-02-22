@@ -29,4 +29,8 @@ npm i @material-ui/core
 Material-UI is simply a library that allows us to import and use different components to create a user interface in our React applications
 
 8) How to send emails from a React application without a backend(server);
-https://medium.com/@patienceadajah/how-to-send-emails-from-a-react-application-without-a-backend-server-1dd8718ceedd
+https://medium.com/@patienceadajah/https:
+//www.emailjs.com/docs/examples/reactjs/edd
+https://dashboard.emailjs.com/admin/integration
+
+npm install @emailjs/browser

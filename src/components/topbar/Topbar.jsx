@@ -1,6 +1,6 @@
 import "./topbar.scss";
-import { Person, Mail, RvHookupSharp } from "@material-ui/icons";
-
+import { Person, Mail } from "@material-ui/icons";
+// import GitHubIcon from '@mui/icons-material/GitHub';
 // aplicação dos hooks = menuOpen, setMenuOpen
 export default function Topbar({ menuOpen, setMenuOpen }) {
   return (
@@ -19,6 +19,11 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
           <div className="itemContainer">
             <Mail className="icon" />
             <span>matiasbreno19@gmail.com</span>
+          </div>
+          <div>
+            {/* <GitHubIcon className="icon" /> */}
+            <span>matiasbreno19@gmail.com</span>
+
           </div>
         </div>
         <div className="right">

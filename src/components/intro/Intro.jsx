@@ -30,7 +30,7 @@ export default function Intro() {
           </h3>
         </div>
         <a href="#portfolio">
-          <img src="assets/down.png" alt="" />
+          <img  className="adown" src="assets/down.png" alt="" />
         </a>
       </div>
     </div>
