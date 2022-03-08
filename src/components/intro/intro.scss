@@ -5,13 +5,10 @@
   display: flex;
 
 
-  @mixin mobilemix {
     @include mobile{
       flex-direction: column;
       align-items: center;
     }
-  
-  }
 
   .left {
     flex: 0.5;
@@ -27,20 +24,16 @@
       justify-content: center;
       float: right;
 
-      @mixin mobilemix {
         @include mobile{
           align-items: flex-start;
-        }
       }
 
 
       img {
         height: 90%;
 
-        @mixin mobilemix {
           @include mobile{
             height: 50%;
-          }
         }
    
       }
@@ -57,12 +50,10 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
-  
-      @mixin mobilemix {
+
         @include mobile{
           padding-left: 0;
           align-items: center;
-        }
       }
 
 
@@ -70,10 +61,9 @@
         font-size: 60px;
         margin: 10px 0;
         
-        @mixin mobilemix {
+
           @include mobile{
             font-size: 40px;
-          }
         }
   
       }
@@ -83,10 +73,8 @@
       h3 {
         font-size: 30px;
         
-        @mixin mobilemix {
           @include mobile{
             font-size: 20px;
-          }
         }
 
 
@@ -131,4 +119,11 @@
 .adown {
   height: 5em;
   margin-bottom: 4em;
+}
+
+.reachme {
+  display: flex;
+  position: absolute;
+  margin-left: 15em;
+  margin-top: 23em;
 }

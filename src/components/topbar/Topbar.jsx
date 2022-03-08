@@ -1,7 +1,5 @@
 import "./topbar.scss";
 import { Person, Mail } from "@material-ui/icons";
-import git from "../../images/git.svg";
-import lin from "../../images/lin.svg";
 
 export default function Topbar({ menuOpen, setMenuOpen }) {
   return (
@@ -22,17 +20,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
             <span>matiasbreno19@gmail.com</span>
           </div>
 
-          <div>
-          <a href="https://github.com/brenoMatias" target="blank">
-         <img className="gitimg" src={git} alt="github" />
-           </a>         
-          </div>
 
-          <div>
-          <a href="https://www.linkedin.com/in/breno-matiass/" target="blank">
-         <img className="gitimg" src={lin} alt="github" />
-           </a>           
-          </div>
           
 
         </div>

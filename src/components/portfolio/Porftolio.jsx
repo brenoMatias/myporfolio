@@ -35,7 +35,9 @@ export default function Portfolio() {
 
   return (
     <div className="portfolio" id="portfolio">
-      <h1>Stack</h1>
+      <div className="stackdiv">    
+         <h1 className="stack">Stack</h1>
+      </div>
       <div className="portLi"> 
       <ul>
         {list.map((item) => (
@@ -50,7 +52,7 @@ export default function Portfolio() {
       </div>
       <div className="container">
         {data.map((d) => (
-          <div className="item">
+          <div className="item-p">
             <img className="portImg"
               src={d.img}
               alt=""
