@@ -7,7 +7,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
    //  topbar " + (menuOpen && "active") aplicação de transformação do burger menu
     <div className={"topbar " + (menuOpen && "active")}>
       <div className="wrapper">
-        <div className="left">
+        <div className="left-topbar">
           <a href="#intro" className="logo">
             Breno Matias
           </a>

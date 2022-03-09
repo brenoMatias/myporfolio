@@ -4,19 +4,14 @@
   background-color: white;
   display: flex;
 
-
-    @include mobile{
-      flex-direction: column;
-      align-items: center;
-    }
-
-  .left {
+  .left-intro {
     flex: 0.5;
     overflow: hidden;
 
     .imgContainer {
-      width: 700px;
-      height: 700px;
+      margin-top: 1.8em;
+      width: 43em;
+      height: 43em;
       background-color: crimson;
       border-radius: 50%;
       display: flex;
@@ -24,21 +19,12 @@
       justify-content: center;
       float: right;
 
-        @include mobile{
-          align-items: flex-start;
-      }
-
-
       img {
-        height: 90%;
-
-          @include mobile{
-            height: 50%;
-        }
-   
+        height: 80%;   
       }
     }
   }
+
   .right {
     flex: 0.5;
     position: relative;
@@ -50,12 +36,6 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
-
-        @include mobile{
-          padding-left: 0;
-          align-items: center;
-      }
-
 
       h1 {
         font-size: 60px;
@@ -97,13 +77,14 @@
         }
       }
     }
+
     a {
       position: absolute;
       bottom: 10px;
       left: 40%;
 
       img {
-        width: 30px;
+        width: 20px;
         animation: arrowBlink 2s infinite;
       }
 
@@ -124,6 +105,57 @@
 .reachme {
   display: flex;
   position: absolute;
-  margin-left: 15em;
+  margin-left: 16em;
   margin-top: 23em;
+}
+
+.links {
+  display: flex;
+  position: absolute;
+  margin-left: 32em;
+  margin-top: 50em;
+  background-color: aqua;
+}
+
+@media (max-width: 768px) {
+  
+
+  .intro {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .intro .left-intro .imgContainer {
+    margin-top: 1.8em;
+    width: 10em;
+    height: 10em;
+    background-color: rgba(67, 220, 20, 0.712);
+    border-radius: 50%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    float: right;
+}
+
+  .intro .left-intro {
+    background-color: rgb(69, 172, 28);
+    padding: 0px;
+  }
+
+  .links {
+    display: flex;
+    position: absolute;
+
+  }
+
+  .wrapper {
+    padding-left: 0;
+    // align-items: center;
+  }
+
+  .reachdiv {
+    display: flex;
+ }
+
+
 }

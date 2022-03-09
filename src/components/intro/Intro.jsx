@@ -20,6 +20,8 @@ export default function Intro() {
   return (
 
     <div className="intro" id="intro">
+
+      <div className="reachdiv"> 
         <h1 className="reachme"> Reach me</h1>
 
       <div className="links"> 
@@ -34,18 +36,18 @@ export default function Intro() {
               <img className="gitimg" src={lin} alt="github" />
               </a>           
               </div>
-         </div> 
+
+              </div> 
+         </div>
 
 
-       <div className="left"> 
+       <div className="left-intro"> 
         <div className="imgContainer">
           <img src= { eu } alt="" />
         </div>
-        </div>
+      </div>
 
       <div className="right">
-        
-        
         <div className="wrapper">
           <h2>Hi There, I'm</h2>
           <h1>Breno Matias</h1>
@@ -53,10 +55,12 @@ export default function Intro() {
             <span ref={textRef}></span>
           </h3>
         </div>
+
         <a href="#portfolio">
-<img  className="adown" src="assets/down.png" alt="" />
-</a>
+          <img  className="adown" src="assets/down.png" alt="" />
+        </a>
       </div>
+
    <div>
 
    </div>
