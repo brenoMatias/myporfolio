@@ -21,7 +21,8 @@ export default function Intro() {
 
     <div className="intro" id="intro">
 
-      <div className="reachdiv"> 
+       <div className="left-intro"> 
+       <div className="reachdiv"> 
         <h1 className="reachme"> Reach me</h1>
 
       <div className="links"> 
@@ -40,8 +41,6 @@ export default function Intro() {
               </div> 
          </div>
 
-
-       <div className="left-intro"> 
         <div className="imgContainer">
           <img src= { eu } alt="" />
         </div>

@@ -37,20 +37,22 @@
 
   .container {
     width: 100%;
-    height: 130em;
+    height: 120em;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: rgba(0, 0, 0, 0.671);
+    background-color: rgba(151, 19, 19, 0.219);
 
     @include mobile{
       width: 100%;
 }
 
     .item-p {
-      width: 30%;
-      height: 22em;
+      // width: 30%;
+      // height: 20em;
+      width: 450px;
+      height: 320px;
       border-radius: 20px;
       border: 3px solid rgb(5, 0, 0);
       background-color: white;
@@ -61,7 +63,6 @@
       position: relative;
       transition: all .5s ease;
       cursor: pointer;
-
 
       @include mobile{
         width: 130px;
@@ -100,6 +101,8 @@
 
 .stackdiv {
 height: 20em;
+margin-top: 1em;
+
 }
 
 @media (max-width: 768px) { 
@@ -110,6 +113,22 @@ height: 20em;
     border-radius: 20px;
     border: 3px solid rgb(21, 54, 2);
   }
+
+  .stackdiv {
+    margin-top: 1em;
+    height: em;
+    margin-bottom: 0em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+    }
+
+    .stack {
+      height: 10em;
+      font-size: 400px;
+    }
+    
 
 
   
