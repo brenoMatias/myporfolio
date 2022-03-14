@@ -1,0 +1,96 @@
+@import "../../global.scss";
+
+.portfolio {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h1 {
+    font-size: 4em;
+    height: 100px;
+
+    @mixin mobilemix {
+    @include mobile{
+      font-size: 20px;
+    }
+  }
+}
+
+.portLi {
+  height: 6em;
+}
+
+  ul {
+    margin: 10px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+
+    @mixin mobilemix {
+    @include mobile{
+      margin: 10px 0;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+}
+
+  .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgba(0, 0, 0, 0.671);
+
+    @mixin mobilemix {
+    @include mobile{
+      width: 100%;
+    }
+}
+
+    .item {
+      width: 30%;
+      height: 22em;
+      border-radius: 20px;
+      border: 1px solid rgb(209, 8, 8);
+      margin: 10px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      position: relative;
+      transition: all .5s ease;
+      cursor: pointer;
+
+      @mixin mobilemix {
+      @include mobile{
+        width: 130px;
+        height: 100px;
+      }
+    }
+
+      h3 {
+        position: absolute;
+        font-size: 20px;
+      }
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: 1;
+      }
+
+      &:hover {
+        background-color: black;
+        img {
+          opacity: 0.2;
+          z-index: 0;
+        }
+      }
+    }
+  }
+}

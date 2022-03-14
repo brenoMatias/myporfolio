@@ -15,3 +15,18 @@ npm i sass
 
 4) useRef hook react 
 https://reactjs.org/docs/hooks-reference.html#useref
+
+5) React Icon Component - MUI
+npm install @mui/material @emotion/react @emotion/styled
+
+
+6)  > = each element inside
+in scss(css)
+
+7) https://www.npmjs.com/package/@material-ui/core
+npm i @material-ui/core
+
+Material-UI is simply a library that allows us to import and use different components to create a user interface in our React applications
+
+8) How to send emails from a React application without a backend(server);
+https://medium.com/@patienceadajah/how-to-send-emails-from-a-react-application-without-a-backend-server-1dd8718ceedd
