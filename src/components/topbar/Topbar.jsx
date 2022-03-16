@@ -1,7 +1,6 @@
 import "./topbar.scss";
-import { Person, Mail, RvHookupSharp } from "@material-ui/icons";
-
-// aplicação dos hooks = menuOpen, setMenuOpen
+import { Person, Mail } from "@material-ui/icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export default function Topbar({ menuOpen, setMenuOpen }) {
   return (
 
@@ -19,6 +18,10 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
           <div className="itemContainer">
             <Mail className="icon" />
             <span>matiasbreno19@gmail.com</span>
+          </div>
+          <div>
+            {/* <GitHubIcon className="icon" /> */}
+            <FontAwesomeIcon icon="fab fa-github" />
           </div>
         </div>
         <div className="right">
