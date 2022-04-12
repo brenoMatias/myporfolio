@@ -1,13 +1,13 @@
 import "./topbar.scss";
 import { Person, Mail } from "@material-ui/icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 export default function Topbar({ menuOpen, setMenuOpen }) {
   return (
 
    //  topbar " + (menuOpen && "active") aplicação de transformação do burger menu
     <div className={"topbar " + (menuOpen && "active")}>
       <div className="wrapper">
-        <div className="left">
+        <div className="left-topbar">
           <a href="#intro" className="logo">
             Breno Matias
           </a>
@@ -19,10 +19,10 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
             <Mail className="icon" />
             <span>matiasbreno19@gmail.com</span>
           </div>
-          <div>
-            {/* <GitHubIcon className="icon" /> */}
-            <FontAwesomeIcon icon="fab fa-github" />
-          </div>
+
+
+          
+
         </div>
         <div className="right">
           <div className="hamburger" onClick={()=>setMenuOpen(!menuOpen)}>

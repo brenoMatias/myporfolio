@@ -2,7 +2,7 @@
 
 .topbar {
   width: 100%;
-  height: 70px;
+  height: 6em;
   background-color: green;
   color: white;
   position: fixed;
@@ -16,16 +16,21 @@
     align-items: center;
     justify-content: space-between;
 
-    .left {
+    .left-topbar {
       display: flex;
       align-items: center;
 
       .logo {
-        font-size: 40px;
         font-weight: 700;
         text-decoration: none;
         color: inherit;
         margin-right: 40px;
+        margin-top: -0.2em;
+        font-size: 4em;
+        font-weight: bold;
+        color: #f7f2f2;
+        background: #ffffff00;
+        text-shadow: 3px 3px 3px #080000, 5px 4px 0px rgba(0,0,0,0.15);
       }
 
       .itemContainer {
@@ -33,10 +38,9 @@
         align-items: center;
         margin-left: 30px;
 
-        @mixin mobilemix {
+
         @include mobile{
           display: none;
-        }
     }
         .icon {
           font-size: 18px;
@@ -90,4 +94,32 @@
       }
     }
   }
+}
+
+
+
+.gitimg {
+  height: 3.2em;
+  margin-left: 1em;
+}
+
+@media (max-width: 768px) { 
+
+  .topbar {
+     height: 6em;
+  }
+
+  .left-topbar {
+    font-size: 0.48em;
+    margin-left: -20px;
+    display: flex;
+    margin-top: 1.5em;
+    margin-top: 4em;
+
+  }
+
+  .itemContainer {
+    // margin-left: -60px;
+  }
+
 }
